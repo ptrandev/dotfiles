@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Ubuntu 9
+font pango:Ubuntu 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -182,9 +182,9 @@ hide_edge_borders both
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status
+        status_command i3blocks -c /home/phillip/i3blocks.conf
 	position top
-	font pango: Ubuntu 9
+	font pango: Ubuntu 10
 	colors {
 		background $bg-color
 	        separator #757575
@@ -199,23 +199,24 @@ bar {
 
 # things to bind
 bindsym $mod+shift+x exec i3lock --color "$bg-color"
-bindsym mod1+1 exec firefox
-bindsym mod1+2 exec libreoffice
-bindsym mod1+3 exec steam
-bindsym mod1+4 exec obs-studio
-bindsym mod1+5 exec xfce4-taskmanager
-bindsym $mod+d exec rofi -show run -lines 5 -eh 2 -width 100 -padding 800 -opacity "75" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#75507B" -font "Ubuntu 20"
+bindsym mod1+grave   exec thunar
+bindsym mod1+1       exec firefox
+bindsym mod1+2       exec libreoffice
+bindsym mod1+3       exec steam
+bindsym mod1+4       exec obs-studio
+bindsym mod1+0       exec xfce4-taskmanager
+bindsym mod1+9       exec rhythmbox
+bindsym $mod+d       exec rofi -show run -lines 5 -eh 2 -width 100 -padding 800 -opacity "75" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "$highlight-color" -font "Ubuntu 24"
 
 # things to start on startup
 exec gtk-redshift -l 42.633425:-71.316172
 exec compton -b
-exec xset led named "Scroll Lock"
+exec guake
 
 # things to always start on new session
-exec_always feh --bg-scale /home/phillip/.modifications/Wallpaper7.jpg
+exec_always feh --bg-scale /home/phillip/.wallpapers/happy-little-trees.jpg
 exec_always sh /home/phillip/.mousespeed
-
-
+exec_always xset led named "Scroll Lock"
 
 # enable multimedia buttons
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% # increase sound volume
