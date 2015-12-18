@@ -126,8 +126,11 @@ alias autoremove='sudo apt-get autoremove'
 # Shortcuts
 alias c='clear'
 alias f='fortune'
+alias fa='fortune -o'
 alias bashrc='nano ~/.bashrc'
 alias genymotion='/opt/genymobile/genymotion/genymotion'
 alias i3conf='nano ~/.i3/config'
 alias i3blocksconf='nano ~/i3blocks.conf'
 alias mouseconf='nano ~/.mousespeed'
+
+
