@@ -205,7 +205,7 @@ bindsym mod1+2       exec libreoffice
 bindsym mod1+3       exec steam
 bindsym mod1+4       exec obs
 bindsym mod1+0       exec rhythmbox
-bindsym mod1+9       exec xfce4-taskmanager
+bindsym mod1+9       exec xfce4-taskmanger
 bindsym $mod+d       exec rofi -show run -lines 5 -eh 2 -width 100 -padding 800 -opacity "75" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "$highlight-color" -font "Ubuntu 24"
 
 # things to start on startup
@@ -226,5 +226,3 @@ bindsym XF86AudioPlay exec playerctl play
 bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
-
-
