@@ -1,1 +1,2 @@
-
+xinput set-prop 'USB Optical Mouse' 'Device Accel Profile' -1
+xinput set-prop 'USB Optical Mouse' 'Device Accel Constant Deceleration' 1
