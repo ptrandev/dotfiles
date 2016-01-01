@@ -215,8 +215,6 @@ bindsym $mod+d       exec rofi -show run -lines 5 -eh 2 -width 100 -padding 800 
 # execute on startup
 exec gtk-redshift -l 42.633425:-71.316172
 exec compton -b
-exec --no-startup-id i3-msg 'workspace $w1; exec xfce4-terminal -e irssi'
-exec --no-startup-id i3-msg 'workspace $w1; exec xfce4-terminal' 
 exec guake
 
 # always execute on restart
