@@ -116,12 +116,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
+screenfetch
 
 # Package Manager Aliases
-alias update='sudo apt-get update'
-alias upgrade='sudo apt-get upgrade'
-alias dist-upgrade='sudo apt-get dist-upgrade'
-alias autoremove='sudo apt-get autoremove'
+alias update='sudo pacman -Syu'
 
 # Shortcuts
 alias c='clear'
