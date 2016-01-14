@@ -13,11 +13,11 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Ubuntu 10, FontAwesome 10
+font pango:Noto Sans 10, FontAwesome 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango Ubuntu 9, FontAwesome 9
+#font pango Noto Sans 9, FontAwesome 9
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -96,14 +96,23 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
+# Gaps
+gaps inner 20
+gaps outer 0
+
+for_window [class="^.*"] border pixel 0
+
 # workspace aliases
 set $w1 "1  "
 set $w2 "2  "
-set $w3 "3  "
-set $w4 "4  "
-set $w5 "5"
-set $w9 "9 "
-set $w10 "10  "
+set $w3 "3 "
+set $w4 "4  "
+set $w5 "5 "
+set $w6 "6 "
+set $w7 "7 "
+set $w8 "8 "
+set $w9 "9 "
+set $w10 "10  "
 
 # switch to workspace
 bindsym $mod+1 workspace $w1
@@ -111,9 +120,9 @@ bindsym $mod+2 workspace $w2
 bindsym $mod+3 workspace $w3
 bindsym $mod+4 workspace $w4
 bindsym $mod+5 workspace $w5
-bindsym $mod+6 workspace 6
-bindsym $mod+7 workspace 7
-bindsym $mod+8 workspace 8
+bindsym $mod+6 workspace $w6
+bindsym $mod+7 workspace $w7
+bindsym $mod+8 workspace $w8
 bindsym $mod+9 workspace $w9
 bindsym $mod+0 workspace $w10
 
@@ -168,7 +177,7 @@ set $inactive-bg-color   #4c5366
 set $text-color          #ffffff
 set $inactive-text-color #bfbfbf
 set $urgent-bg-color     #e53935
-set $highlight-color     #0E67E0
+set $highlight-color     #19b898
 
 # window colors
 #                       border              background         text                 indicator
@@ -185,7 +194,7 @@ hide_edge_borders both
 bar {
         status_command i3blocks -c /home/phillip/i3blocks.conf
 	position top
-	font pango: Ubuntu 10, FontAwesome 10
+	font pango: Noto Sans 10, FontAwesome 10
 	colors {		
 		background $bg-color
 	        separator #757575
@@ -202,25 +211,28 @@ bindsym $mod+shift+x exec i3lock --color "$bg-color"
 bindsym mod1+grave   exec xfce4-taskmanager
 bindsym mod1+1       exec thunar
 bindsym mod1+2       exec firefox
-bindsym mod1+3       exec steam
-bindsym mod1+4       exec libreoffice
+bindsym mod1+3       exec libreoffice
+bindsym mod1+4       exec steam
 bindsym mod1+5       exec kdenlive
 bindsym mod1+6	     exec audacity
 bindsym mod1+7       exec  
 bindsym mod1+8       exec 
 bindsym mod1+9       exec obs
 bindsym mod1+0       exec rhythmbox
-bindsym $mod+d       exec rofi -show run -lines 5 -eh 2 -width 100 -padding 800 -opacity "75" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "$highlight-color" -font "Ubuntu 24"
+bindsym $mod+d       exec rofi -show run -lines 5 -eh 2 -width 100 -padding 450 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "$highlight-color" -font "Noto Sans 24"
 
 # execute on startup
-exec gtk-redshift -l 42.633425:-71.316172
+exec redshift
 exec compton -b
-exec guake
 
 # always execute on restart
-exec_always feh --bg-scale /home/phillip/.wallpapers/happy-little-trees.jpg
 exec_always sh /home/phillip/.mousespeed
 exec_always xset led named "Scroll Lock"
+
+# Wallpapers
+#exec_always feh --bg-scale /home/phillip/.wallpaper/linux-penguins.png
+exec_always feh --bg-scale /usr/share/wallpapers/Maia/contents/images/1920x1080.png
+#exec_always feh --bg-center /home/phillip/.wallpaper/apple-sucking.jpg
 
 # enable multimedia buttons
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% # increase sound volume
