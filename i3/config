@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Noto Sans 10, FontAwesome 10
+font pango: Noto Sans 10, FontAwesome 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -132,9 +132,9 @@ bindsym $mod+Shift+2 move container to workspace $w2
 bindsym $mod+Shift+3 move container to workspace $w3
 bindsym $mod+Shift+4 move container to workspace $w4
 bindsym $mod+Shift+5 move container to workspace $w5
-bindsym $mod+Shift+6 move container to workspace 6
-bindsym $mod+Shift+7 move container to workspace 7
-bindsym $mod+Shift+8 move container to workspace 8
+bindsym $mod+Shift+6 move container to workspace $w6
+bindsym $mod+Shift+7 move container to workspace $w7
+bindsym $mod+Shift+8 move container to workspace $w8
 bindsym $mod+Shift+9 move container to workspace $w9
 bindsym $mod+Shift+0 move container to workspace $w10
 
@@ -171,6 +171,11 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Highlight Colors
+# Emerald:	#19b898
+# Green: 	#1dd260
+# Blue: 	#0f73fb
+
 # set color aliases
 set $bg-color            #2f343f
 set $inactive-bg-color   #4c5366
@@ -192,7 +197,7 @@ hide_edge_borders both
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3blocks -c /home/phillip/i3blocks.conf
+        status_command i3blocks -c /home/phillip/.i3blocks/.i3blocks.conf
 	position top
 	font pango: Noto Sans 10, FontAwesome 10
 	colors {		
@@ -209,16 +214,16 @@ bar {
 # binds 
 bindsym $mod+shift+x exec i3lock --color "$bg-color"
 bindsym mod1+grave   exec xfce4-taskmanager
-bindsym mod1+1       exec thunar
+bindsym mod1+1       exec xfce4-terminal
 bindsym mod1+2       exec firefox
 bindsym mod1+3       exec libreoffice
 bindsym mod1+4       exec steam
 bindsym mod1+5       exec kdenlive
 bindsym mod1+6	     exec audacity
 bindsym mod1+7       exec  
-bindsym mod1+8       exec 
-bindsym mod1+9       exec obs
-bindsym mod1+0       exec rhythmbox
+bindsym mod1+8       exec obs
+bindsym mod1+9       exec rhythmbox
+bindsym mod1+0       exec thunar
 bindsym $mod+d       exec rofi -show run -lines 5 -eh 2 -width 100 -padding 450 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "$highlight-color" -font "Noto Sans 24"
 
 # execute on startup
@@ -231,8 +236,9 @@ exec_always xset led named "Scroll Lock"
 
 # Wallpapers
 #exec_always feh --bg-scale /home/phillip/.wallpaper/linux-penguins.png
-exec_always feh --bg-scale /usr/share/wallpapers/Maia/contents/images/1920x1080.png
+ exec_always feh --bg-scale /usr/share/wallpapers/Maia/contents/images/1920x1080.png
 #exec_always feh --bg-center /home/phillip/.wallpaper/apple-sucking.jpg
+#exec_always feh --bg-scale /home/phillip/.wallpaper/powered-by-gnu-linux.png
 
 # enable multimedia buttons
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% # increase sound volume
@@ -244,5 +250,6 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # force certain applications to stay on certain workspaces
-assign [class="Rhythmbox"] $w10
-assign [class="obs"] $w9
+assign [class="obs"] $w8
+assign [class="Rhythmbox"] $w9
+assign [class="thunar"] $w10
