@@ -120,6 +120,7 @@ screenfetch
 
 # Package Manager Aliases
 alias update='sudo pacman -Syu'
+alias poem='echo roses are red, && sleep 1 && echo violets are blue, && sleep 1 && echo sudo pacman -Syu && sleep 1 && sudo pacman -Syu'
 
 # Shortcuts
 alias c='clear'
