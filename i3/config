@@ -224,7 +224,7 @@ bindsym mod1+7       exec
 bindsym mod1+8       exec obs
 bindsym mod1+9       exec rhythmbox
 bindsym mod1+0       exec thunar
-bindsym $mod+d       exec rofi -show run -lines 5 -eh 2 -width 100 -padding 450 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "$highlight-color" -font "Noto Sans 24"
+bindsym $mod+d       exec rofi -show run -lines 5 -eh 2 -opacity "85" -bc "$highlight-color" -bg "$bg-color" -fg "$text-color" -hlfg "$highlight-color" -hlbg "$inactive-bg-color" -font "Noto Sans 16"
 
 # execute on startup
 exec redshift
