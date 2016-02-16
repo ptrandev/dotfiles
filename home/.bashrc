@@ -118,9 +118,13 @@ fi
 
 screenfetch
 
-# Package Manager Aliases
+# Package Manager Aliases (pacman)
 alias update='sudo pacman -Syu'
 alias poem='echo roses are red, && sleep 1 && echo violets are blue, && sleep 1 && echo sudo pacman -Syu && sleep 1 && sudo pacman -Syu'
+
+# Pacakge Manager Aliases (apt-get)
+alias update='sudo apt-get update'
+alias upgrade='sudo apt-get upgrade'
 
 # Shortcuts
 alias c='clear'
@@ -128,7 +132,6 @@ alias f='fortune'
 alias sa='systemd-analyze'
 alias sab='systemd-analyze blame'
 alias bashrc='nano ~/.bashrc'
-alias genymotion='/opt/genymobile/genymotion/genymotion'
 alias i3conf='nano ~/.i3/config'
 alias i3blocksconf='nano ~/i3blocks.conf'
 alias mouseconf='nano ~/.mousespeed'
