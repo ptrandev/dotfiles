@@ -125,6 +125,8 @@ alias poem='echo roses are red, && sleep 1 && echo violets are blue, && sleep 1 
 # Pacakge Manager Aliases (apt-get)
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
+alias dist-upgrade='sudo apt-get dist-upgrade'
+alias autoremove='sudo apt-get autoremove'
 
 # Shortcuts
 alias c='clear'
