@@ -1,6 +1,8 @@
 # dotfiles
 Contains my configuration files.
 
+---
+
 1. i3wm
 2. i3blocks
 3. bashrc (user + root)
