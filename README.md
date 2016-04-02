@@ -10,3 +10,4 @@ Contains my configuration files.
 5. mousespeed
 6. homepage
 7. terminalrc (xfce4-terminal)
+8. neovim
