@@ -1,0 +1,53 @@
+URxvt.font: xft:monospace:size=11
+URxvt.scrollBar: false
+
+!!!!!!!!!!
+! COLORS !
+!!!!!!!!!!
+
+
+! NORMAL COLORS
+! ----------------
+! color 0    white
+! color 1      red
+! color 2    green
+! color 3   yellow
+! color 4     blue
+! color 5   purple
+! color 6     cyan
+! color 7    black
+
+URxvt*color0:              #D6DAE4
+URxvt*color1:              #F71118
+URxvt*color2:              #2CC55D
+URxvt*color3:              #ECB90F
+URxvt*color4:              #2A84D2
+URxvt*color5:              #4E59B7
+URxvt*color6:              #0F80D5
+URxvt*color7:              #1F1F1F
+
+! LIGHT COLORS
+! ---------------
+! color 8   black
+! color 9     red 
+! color 10  green
+! color 11 yellow
+! color 12   blue
+! color 13 purple
+! color 14   cyan 
+! color 15  white
+
+URxvt*color8:              #D6DAE4
+URxvt*color9:              #DE342E
+URxvt*color10:             #1DD260
+URxvt*color11:             #F2BD09
+URxvt*color12:             #0F80D5
+URxvt*color13:             #524FB9
+URxvt*color14:             #0F7CDA
+URxvt*color15:             #FFFFFF
+
+! OTHER COLORS
+
+URxvt*background:          #131313
+URxvt*foreground:	   #D6DAE4
+URxvt*cursorColor:         #D6DAE4
