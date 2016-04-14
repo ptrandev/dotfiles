@@ -142,8 +142,8 @@ colors() {
 screenfetch
 
 # Package Manager Aliases (pacman)
-alias update='sudo pacman -Syu'
-alias poem='echo roses are red, && sleep 1 && echo violets are blue, && sleep 1 && echo sudo pacman -Syu && sleep 1 && sudo pacman -Syu'
+alias update='yaourt -Syyua --noconfirm'
+alias poem='echo roses are red, && sleep 1 && echo violets are blue, && sleep 1 && echo sudo pacman -Syu && sleep 1 && yaourt -Syyua --noconfirm'
 
 # Pacakge Manager Aliases (apt-get)
 alias update='sudo apt-get update'
