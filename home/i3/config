@@ -178,11 +178,11 @@ bindsym $mod+r mode "resize"
 
 # set color aliases
 set $bg-color            #2f343f
-set $inactive-bg-color   #4c5366
-set $text-color          #ffffff
+set $inactive-bg-color   #202020
+set $text-color          #d6dae4
 set $inactive-text-color #bfbfbf
-set $urgent-bg-color     #e53935
-set $highlight-color     #19b898
+set $urgent-bg-color     #de342e
+set $highlight-color     #0f73fb
 
 # window colors
 #                       border              background         text                 indicator
@@ -224,9 +224,10 @@ bindsym mod1+7       exec
 bindsym mod1+8       exec obs
 bindsym mod1+9       exec rhythmbox
 bindsym mod1+0       exec thunar
-bindsym $mod+d       exec rofi -show run -lines 5 -eh 2 -opacity "85" -bc "$highlight-color" -bg "$bg-color" -fg "$text-color" -hlfg "$highlight-color" -hlbg "$inactive-bg-color" -font "Noto Sans 16"
+bindsym $mod+d       exec rofi -show run -lines 7 -eh 2 -opacity "95" -bc "$highlight-color" -bg "$bg-color" -fg "$text-color" -hlfg "$highlight-color" -hlbg "$inactive-bg-color" -font "Noto Sans 16"
 
 # execute on startup
+exec pulseaudio --start
 exec redshift
 exec compton -b
 
@@ -252,4 +253,3 @@ bindsym XF86AudioPrev exec playerctl previous
 # force certain applications to stay on certain workspaces
 assign [class="obs"] $w8
 assign [class="Rhythmbox"] $w9
-assign [class="thunar"] $w10
