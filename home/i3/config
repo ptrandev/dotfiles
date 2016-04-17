@@ -180,15 +180,15 @@ bindsym $mod+r mode "resize"
 set $bg-color            #2f343f
 set $inactive-bg-color   #202020
 set $text-color          #d6dae4
-set $inactive-text-color #bfbfbf
+set $inactive-text-color #808080
 set $urgent-bg-color     #de342e
 set $highlight-color     #0f73fb
 
 # window colors
 #                       border              background         text                 indicator
 client.focused          $bg-color           $bg-color          $text-color          #00ff00
-client.unfocused        $iancative-bg-color $inactive-bg-color $inactive-text-color #00ff00
-client.focused_inactive $iancative-bg-color $inactive-bg-color $inactive-text-color #00ff00
+client.unfocused        $bg-color	    $bg-colo	       $inactive-text-color #00ff00
+client.focused_inactive $bg-color           $bg-colo	       $inactive-text-color #00ff00
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
 
 # hide edge indicator
