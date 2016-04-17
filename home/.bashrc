@@ -142,7 +142,7 @@ colors() {
 screenfetch
 
 # Package Manager Aliases (pacman)
-alias update='yaourt -Syyua --noconfirm'
+alias upgrade='yaourt -Syyua --noconfirm'
 alias poem='echo roses are red, && sleep 1 && echo violets are blue, && sleep 1 && echo sudo pacman -Syu && sleep 1 && yaourt -Syyua --noconfirm'
 
 # Pacakge Manager Aliases (apt-get)
@@ -161,4 +161,6 @@ alias i3conf='nano ~/.i3/config'
 alias i3blocksconf='nano ~/i3blocks.conf'
 alias mouseconf='nano ~/.mousespeed'
 
+# SSD Life/Write/Read Statistics
+alias ssdstats='sudo smartctl -a /dev/sdb | grep -A2 "233"'
 
