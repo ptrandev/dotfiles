@@ -4,5 +4,5 @@ set number
 # Set Syntax
 syntax on
 
-# Tabe spacing of 4
-set shiftwidth=4
+# Tabe spacing of 2
+set shiftwidth=2
