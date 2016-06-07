@@ -1,6 +1,6 @@
-!!!!!!!!!!
-! URxvut !
-!!!!!!!!!!
+!!!!!!!!!
+! URxvt !
+!!!!!!!!!
 
 URxvt.font: xft:monospace:size=11
 URxvt.scrollBar: false
