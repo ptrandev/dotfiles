@@ -67,3 +67,7 @@ rofi.opacity: 95
 
 ! Font
 rofi.font: Noto Sans 16
+
+! Other
+rofi.width: 2000
+rofi.padding: 300
