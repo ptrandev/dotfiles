@@ -63,11 +63,7 @@ rofi.color-active: #131313, #2CC55D, #131313, #202020, #2CC55D
 rofi.color-urgent: #131313, #F71118, #131313, #202020, #DA4281
 
 ! Opacity
-rofi.opacity: 95
+rofi.opacity: 97
 
 ! Font
 rofi.font: Noto Sans 16
-
-! Other
-rofi.width: 2000
-rofi.padding: 300
