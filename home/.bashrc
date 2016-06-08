@@ -151,6 +151,10 @@ alias upgrade='sudo apt-get upgrade'
 alias dist-upgrade='sudo apt-get dist-upgrade'
 alias autoremove='sudo apt-get autoremove'
 
+# adblocker
+alias adblocker-update='sudo sh /home/phillip/.adblocker.sh'
+
+
 # Shortcuts
 alias c='clear'
 alias f='fortune'
@@ -160,6 +164,9 @@ alias bashrc='nano ~/.bashrc'
 alias i3conf='nano ~/.i3/config'
 alias i3blocksconf='nano ~/i3blocks.conf'
 alias mouseconf='nano ~/.mousespeed'
+alias github='cd /mnt/storage/GitHub'
+
+alias dirs='dirs -v'
 
 # SSD Life/Write/Read Statistics
 alias ssdstats='sudo smartctl -a /dev/sdb | grep -A2 "233"'
