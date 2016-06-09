@@ -1,0 +1,50 @@
+body {
+  background-color: #202020;
+  font-family: monospace;
+}
+
+main {
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+
+h1 {
+  display: inline;
+  font-size:3.5em;
+  color: #D6DAE4;
+  text-align: left;
+}
+
+ul {
+  display: block;
+  margin 0;
+  padding: 0;
+  width: 500px;
+}
+
+li {
+  color: #D6DAE4;
+  display: inline-block;
+  font-size: 1.375em;
+  line-height: 1.5;
+  margin: 5px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #D6DAE4;
+}
+ 
+a:link {
+  color:#ECB80F;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ECB80F;
+  text-decoration: none;
+}
