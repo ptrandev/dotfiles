@@ -139,7 +139,8 @@ colors() {
 
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 
-screenfetch
+# Executes on Startup
+screenfetch -c 09,00
 echo ""
 fortune
 echo ""
