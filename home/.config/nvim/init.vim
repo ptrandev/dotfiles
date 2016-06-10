@@ -4,5 +4,8 @@ set number
 # Set Syntax
 syntax on
 
-# Tabe spacing of 2
+# Tab spacing of 2
 set shiftwidth=2
+
+# Use System Clipboard
+set clipboard=unnamedplus
