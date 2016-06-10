@@ -140,6 +140,9 @@ colors() {
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 
 screenfetch
+echo ""
+fortune
+echo ""
 
 # Package Manager Aliases (pacman)
 alias upgrade='yaourt -Syyua --noconfirm'
