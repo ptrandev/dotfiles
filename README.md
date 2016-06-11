@@ -22,11 +22,11 @@ A collection of my system configuration files.
 - Distribution: `Arch Linux`
 - Shell: `bash`
 - Window Manager: `i3-gaps`
-
+-- 
 - Status: `i3-blocks`
 - Launcher: `rofi`
 - Terminal: `rxvt-unicode`
-
+--
 - Monospace Font:`monospace`
 - System Font: `Noto Sans 11`
 - GTK Theme: `Arc-Dark [GTK2/3]`
