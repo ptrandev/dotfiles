@@ -22,14 +22,24 @@ A collection of my system configuration files.
 - Distribution: `Arch Linux`
 - Shell: `bash`
 - Window Manager: `i3-gaps`
-<br/>
 - Status: `i3-blocks`
 - Launcher: `rofi`
+
+
+
+- File Manager: `thunar`
+- Media Player: `mpv`
+- Music Player: `cmus`
 - Terminal: `rxvt-unicode`
-<br/>
+- Video Editor: `kdenlive`
+- Web Browser: `firefox`
+
+
+
 - Monospace Font:`monospace`
 - System Font: `Noto Sans 11`
 - GTK Theme: `Arc-Dark [GTK2/3]`
 - Icon Theme: `Numix-Circle`
 - Color Scheme: `Brogrammer`
+
 
