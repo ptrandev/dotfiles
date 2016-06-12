@@ -26,12 +26,12 @@ A collection of my system configuration files.
 - Launcher: `rofi`
 
 
-- File Manager: `thunar`
-- Media Player: `mpv`
-- Music Player: `cmus`
-- Terminal: `rxvt-unicode`
-- Video Editor: `kdenlive`
-- Web Browser: `firefox`
+* File Manager: `thunar`
+* Media Player: `mpv`
+* Music Player: `cmus`
+* Terminal: `rxvt-unicode`
+* Video Editor: `kdenlive`
+* Web Browser: `firefox`
 
 
 - Monospace Font:`monospace`
