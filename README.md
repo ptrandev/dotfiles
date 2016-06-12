@@ -24,16 +24,14 @@ A collection of my system configuration files.
 - Window Manager: `i3-gaps`
 - Status: `i3-blocks`
 - Launcher: `rofi`
-
-
-* File Manager: `thunar`
-* Media Player: `mpv`
-* Music Player: `cmus`
-* Terminal: `rxvt-unicode`
-* Video Editor: `kdenlive`
-* Web Browser: `firefox`
-
-
+___
+- File Manager: `thunar`
+- Media Player: `mpv`
+- Music Player: `cmus`
+- Terminal: `rxvt-unicode`
+- Video Editor: `kdenlive`
+- Web Browser: `firefox`
+___
 - Monospace Font:`monospace`
 - System Font: `Noto Sans 11`
 - GTK Theme: `Arc-Dark [GTK2/3]`
