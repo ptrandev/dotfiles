@@ -26,7 +26,6 @@ A collection of my system configuration files.
 - Launcher: `rofi`
 
 
-
 - File Manager: `thunar`
 - Media Player: `mpv`
 - Music Player: `cmus`
@@ -35,11 +34,9 @@ A collection of my system configuration files.
 - Web Browser: `firefox`
 
 
-
 - Monospace Font:`monospace`
 - System Font: `Noto Sans 11`
 - GTK Theme: `Arc-Dark [GTK2/3]`
 - Icon Theme: `Numix-Circle`
 - Color Scheme: `Brogrammer`
-
 
