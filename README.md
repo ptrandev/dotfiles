@@ -43,5 +43,8 @@ ___
 - System Font: `Noto Sans 11`
 - GTK Theme: `Arc-Dark [GTK2/3]`
 - Icon Theme: `Numix-Circle`
-- Color Scheme: `Brogrammer`
+- Terminal Color Scheme: `Brogrammer`
+- Mousepad Color Scheme: `Tinge`
+- Firefox Theme: `Arc-Dark`
+- Steam Skin: `Metro for Steam`
 
