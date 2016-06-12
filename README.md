@@ -32,6 +32,7 @@ ___
 - Music Player: `cmus`
 - Terminal: `rxvt-unicode`
 - Video Editor: `kdenlive`
+- Video Transcoder: `ghb` *(graphical handbrake)*
 - Web Browser: `firefox`
 
 ___
