@@ -48,3 +48,19 @@ ___
 - Firefox Theme: `Arc-Dark`
 - Steam Skin: `Metro for Steam`
 
+## Screenshots:
+
+![1](https://i.imgur.com/lkXnBoQ.png)
+![2](https://i.imgur.com/YchFP7Z.png)
+![3](https://i.imgur.com/BAImNwO.png)
+![4](https://i.imgur.com/cmfEpvd.png)
+![5](https://i.imgur.com/QgrBJRj.png)
+![6](https://i.imgur.com/4C3evuY.png)
+![7](https://i.imgur.com/LOGoWrl.png)
+![8](https://i.imgur.com/W2HqocD.png)
+![9](https://i.imgur.com/nlESiaD.png)
+![10](https://i.imgur.com/BfBTamE.png)
+![11](https://i.imgur.com/vQND9Y9.png)
+![12](https://i.imgur.com/N0M7Yia.png)
+![13](https://i.imgur.com/XXy0NVx.png)
+![14](https://i.imgur.com/IwKDsd6.png)
