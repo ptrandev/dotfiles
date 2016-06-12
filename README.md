@@ -31,8 +31,10 @@ ___
 - Media Player: `mpv`
 - Music Player: `cmus`
 - Terminal: `rxvt-unicode`
+- Text Editors: `neovim` + `mousepad`
+- Torrent Client: `transmission-gtk`
 - Video Editor: `kdenlive`
-- Video Transcoder: `ghb` *(graphical handbrake)*
+- Video Transcoder: `ghb` [graphical handbrake]
 - Web Browser: `firefox`
 
 ___
