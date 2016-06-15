@@ -57,7 +57,7 @@ URxvt*cursorColor:         #D6DAE4
 
 ! Color
 rofi.color-enabled: true
-rofi.color-window: #131313, #131313, #D6DAE4
+rofi.color-window: #131313, #131313, #0F73FB
 rofi.color-normal: #131313, #D6DAE4, #131313, #202020, #0F73FB
 rofi.color-active: #131313, #2CC55D, #131313, #202020, #2CC55D
 rofi.color-urgent: #131313, #F71118, #131313, #202020, #DA4281
