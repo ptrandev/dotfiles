@@ -173,6 +173,10 @@ bindsym $mod+r mode "resize"
 # Emerald:	#19b898
 # Green: 	#1dd260
 # Blue: 	#0f73fb
+# Pastel Blue: #4d679a
+# Light Purple: #a375b3
+# Purple: #74507b
+# Dark Purple: #4E59B7
 
 # set color aliases
 set $bg-color            #2f343f
