@@ -1,0 +1,70 @@
+/* Modified Dylan Araps' MAL CSS */
+
+/* Hide stuff */
+.icon-watch {
+  display: none !important;
+}
+#footer-block {
+    background-color: #202020;
+}
+/* TEXT {{{ */
+
+/* Remove background colors and borders */
+.header-title,
+.list-container,
+.list-menu-float,
+.list-menu-float .icon-menu,
+.status-menu-container {
+    background: transparent !important;
+    border: none !important;
+border-collapse: initial !important;
+    color: #d6dae4 !important;
+}
+
+/* Set nav link hover underline color */
+.status-menu-container .status-menu .status-button::after {
+    background-color: #d6dae4 !important;
+}
+
+/* Add some space between the list title and the header image */
+.list-status-title {
+    background: transparent !important;
+    margin-top: 10px;
+}
+
+/* Align the table title to the left */
+.list-unit .list-status-title .text {
+    padding-left: 2% !important;
+    text-align: left;
+    color: #0f73fb;
+}
+
+/* Set font color to white */
+.list-table .list-table-header .header-title .link,
+.list-table .list-table-data .data,
+.status-menu-container .status-menu .status-button,
+a {
+    color: #d6dae4 !important;
+    font-weight: bold !important;
+}
+
+/* }}} */
+
+/* IMAGES {{{ */
+
+/* Set cover image max size */
+.cover-block .image-container img {
+    max-width: 750px;
+}
+
+/* Fix mal logo when body bg size is cover */
+.header .header-title {
+    background-image: url("/img/pc/ownlist/logo_mal.png") !important;
+    background-position: left top !important;
+    background-repeat: no-repeat !important;
+    background-size: auto 36px !important;
+}
+
+.list-menu-float .icon-menu svg.icon {
+  fill: #d6dae4;
+}
