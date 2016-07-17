@@ -48,3 +48,11 @@ a:visited {
   color: #ECB80F;
   text-decoration: none;
 }
+
+div.quote {
+  color: #D6DAE4;
+  font-size: 1em;
+  float: right;
+  margin: 5px;
+  text-align: center;
+}
