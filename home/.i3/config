@@ -173,6 +173,7 @@ bindsym $mod+r mode "resize"
 # Emerald:	#19b898
 # Green: 	#1dd260
 # Blue: 	#0f73fb
+# Blue 2: #0F80D5
 # Pastel Blue: #4d679a
 # Light Purple: #a375b3
 # Purple: #74507b
@@ -184,7 +185,7 @@ set $inactive-bg-color   #202020
 set $text-color          #d6dae4
 set $inactive-text-color #808080
 set $urgent-bg-color     #de342e
-set $highlight-color     #0f73fb
+set $highlight-color     #0F80D5
 
 # window colors
 #                       border              background         text                 indicator
