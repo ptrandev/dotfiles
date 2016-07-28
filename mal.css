@@ -23,7 +23,7 @@ border-collapse: initial !important;
 
 /* Set nav link hover underline color */
 .status-menu-container .status-menu .status-button::after {
-    background-color: #0F80D5 !important;
+    background-color: #2A84D2 !important;
 }
 
 /* Add some space between the list title and the header image */
@@ -36,7 +36,7 @@ border-collapse: initial !important;
 .list-unit .list-status-title .text {
     padding-left: 2% !important;
     text-align: left;
-    color: #0F80D5;
+    color: #2A84D2;
 }
 
 /* Set font color to white */
