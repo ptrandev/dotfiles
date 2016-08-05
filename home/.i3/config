@@ -215,7 +215,7 @@ bar {
 
 
 # binds 
-bindsym $mod+shift+x exec i3lock --color "$bg-color"
+bindsym $mod+shift+x exec i3lock-fancy -gf Noto-Sans
 bindsym mod1+grave   exec lxtask
 bindsym mod1+1       exec urxvt
 bindsym mod1+2       exec firefox
