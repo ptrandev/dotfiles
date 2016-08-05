@@ -14,7 +14,7 @@ main {
 
 h1 {
   display: inline;
-  font-size:3.5em;
+  font-size:3em;
   color: #D6DAE4;
   text-align: left;
 }
@@ -29,7 +29,7 @@ ul {
 li {
   color: #D6DAE4;
   display: inline-block;
-  font-size: 1.375em;
+  font-size: 1em;
   line-height: 1.5;
   margin: 5px;
 }
@@ -51,7 +51,7 @@ a:visited {
 
 div.quote {
   color: #D6DAE4;
-  font-size: 1em;
+  font-size: 0.75em;
   float: right;
   margin: 5px;
   text-align: center;
