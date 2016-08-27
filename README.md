@@ -39,7 +39,7 @@ ___
 
 ___
 
-- Monospace Font:`monospace`
+- Monospace Font:`Hack 11`
 - System Font: `Noto Sans 11`
 - GTK Theme: `Arc-Dark [GTK2/3]`
 - Icon Theme: `Numix-Circle`
