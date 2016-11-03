@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'roboto-condensed-regular';
+    src: url("roboto-condensed-regular.ttf") format('truetype');
+}
+
 body {
   background-color: #131313;
-  font-family: Noto Sans;
+  font-family: roboto-condensed-regular;
 }
 
 main {
@@ -14,7 +19,7 @@ main {
 
 h1 {
   display: inline;
-  font-size:3em;
+  font-size:3.25em;
   color: #D6DAE4;
   text-align: left;
 }
@@ -29,9 +34,9 @@ ul {
 li {
   color: #D6DAE4;
   display: inline-block;
-  font-size: 1em;
+  font-size: 1.125em;
   line-height: 1.5;
-  margin: 5px;
+  margin: 3px;
 }
 
 hr {
@@ -51,8 +56,8 @@ a:visited {
 
 div.quote {
   color: #D6DAE4;
-  font-size: 0.75em;
-  float: right;
+  font-size: 0.8em;
   margin: 5px;
   text-align: center;
+  line-height: 1.5;
 }
