@@ -21,7 +21,7 @@ A collection of my system configuration files.
 
 - Distribution: `Arch Linux`
 - Shell: `bash`
-- Window Manager: `i3-gaps`
+- Window Manager: `i3`
 - Status: `i3-blocks`
 - Launcher: `rofi`
 
@@ -34,8 +34,8 @@ ___
 - Text Editors: `atom` + `neovim` + `mousepad`
 - Torrent Client: `transmission-gtk`
 - Video Editor: `kdenlive`
-- Video Transcoder: `swift-encoder`
-- Web Browser: `firefox`
+- Video Transcoder: `ffmpeg (swift-encoder)`
+- Web Browser: `chromium`
 
 ___
 
