@@ -155,6 +155,9 @@ alias upgrade='sudo apt-get upgrade'
 alias dist-upgrade='sudo apt-get dist-upgrade'
 alias autoremove='sudo apt-get autoremove'
 
+# Transmission Daemon
+alias reload='sudo /etc/init.d/transmission-daemon reload'
+
 # adblocker
 alias adblocker-update='sudo sh /home/phillip/.adblocker.sh'
 
