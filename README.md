@@ -28,10 +28,11 @@ A collection of my system configuration files.
 ___
 
 - File Manager: `thunar`
+- IDE: `atom`
 - Media Player: `mpv`
 - Music Player: `cmus`
 - Terminal: `rxvt-unicode`
-- Text Editors: `atom` + `neovim` + `mousepad`
+- Text Editors: `neovim` + `mousepad`
 - Torrent Client: `transmission-gtk`
 - Video Editor: `kdenlive`
 - Video Transcoder: `ffmpeg (swift-encoder)`
