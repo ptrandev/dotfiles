@@ -233,6 +233,7 @@ bindsym $mod+d       exec rofi -show run
 exec pulseaudio --start
 exec redshift
 exec compton -b
+#exec nvidia-settings -a "[gpu:0]/GPUGraphicsClockOffset[1]=200" -a "[gpu:0]/GPUMemoryTransferRateOffset[1]=1000"
 
 # always execute on restart
 exec_always sh /home/phillip/.mousespeed
