@@ -3,7 +3,7 @@
 ###########################################################
 # antergos-xfce4-autoinstaller                            #
 #                                                         #
-# A sihple bash script that installs everything I need    #
+# A simple bash script that installs everything I need    #
 # to get up and running with xfce4.                       #
 #                                                         #
 # Github: https://github.com/DonutDeflector/dotfiles      #
