@@ -21,14 +21,11 @@ sudo pacman -S \
   xfce4-sensors-plugin \
   xfce4-systemload-plugin \
   arc-gtk-theme \
-  gparted
+  gparted \
+  plank
 
 # Packages Installed from the AUR
-yaourt -S --noconfirm \
-  lmms-beta \
-  visual-studio-code \
-  inox-bin \
-  redshift-gtk
+yaourt -S --noconfirm lmms-beta visual-studio-code inox-bin redshift-gtk-git
 
 # Inox Browser Extensions
 cd
