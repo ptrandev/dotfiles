@@ -13,6 +13,7 @@
 # Available Options                                       #
 #                                                         #
 # Laptop - Adds PowerTOP and TLP optimizations.           #
+# Nvidia - Adds 32-bit OpenGL driver.                     #
 ###########################################################
 
 # Packages Installed from the Official Repos
@@ -62,3 +63,10 @@ EOL
   systemctl enable tlp.service  
   systemctl enable tlp-sleep.service
 fi
+
+# Nvidia Optimizations
+if [ "$1" = "nvidia" ]
+then
+  sudo pacman -S lib32-nvidia-utils
+fi
+
