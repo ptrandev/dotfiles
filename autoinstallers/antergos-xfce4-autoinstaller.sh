@@ -24,6 +24,9 @@ sudo pacman -S \
   gparted \
   plank
 
+# Add GPG Keys
+gpg --recv-keys 0FC3042E345AD05D
+
 # Packages Installed from the AUR
 yaourt -S --noconfirm lmms-beta visual-studio-code inox-bin redshift-gtk-git discord
 
