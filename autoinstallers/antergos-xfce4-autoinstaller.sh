@@ -25,7 +25,7 @@ sudo pacman -S \
   plank
 
 # Packages Installed from the AUR
-yaourt -S --noconfirm lmms-beta visual-studio-code inox-bin redshift-gtk-git
+yaourt -S --noconfirm lmms-beta visual-studio-code inox-bin redshift-gtk-git discord
 
 # Inox Browser Extensions
 cd
