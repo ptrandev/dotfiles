@@ -17,7 +17,7 @@
 ###########################################################
 
 # Packages Installed from the Official Repos
-sudo pacman -S \
+sudo pacman -Syyu \
   xfce4-whiskermenu-plugin \
   xfce4-sensors-plugin \
   xfce4-systemload-plugin \
@@ -29,7 +29,7 @@ sudo pacman -S \
 gpg --recv-keys 0FC3042E345AD05D
 
 # Packages Installed from the AUR
-yaourt -S --noconfirm lmms-beta visual-studio-code inox-bin redshift-gtk-git discord
+yaourt -Syyu lmms-beta visual-studio-code inox-bin redshift-gtk-git discord --noconfirm
 
 # Inox Browser Extensions
 cd
