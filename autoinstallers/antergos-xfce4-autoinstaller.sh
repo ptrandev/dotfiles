@@ -29,7 +29,7 @@ sudo pacman -Syyu \
 gpg --recv-keys 0FC3042E345AD05D
 
 # Packages Installed from the AUR
-yaourt -Syyu lmms-beta visual-studio-code inox-bin redshift-gtk-git discord --noconfirm
+yaourt -Syyu lmms-beta visual-studio-code inox-bin redshift-gtk-git discord grub-customizer --noconfirm
 
 # Inox Browser Extensions
 cd
@@ -67,6 +67,6 @@ fi
 # Nvidia Optimizations
 if [ "$1" = "nvidia" ]
 then
-  sudo pacman -S lib32-nvidia-utils
+  sudo pacman -Syyu lib32-nvidia-utils libva-vdpau-driver
 fi
 
